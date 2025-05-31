@@ -1,0 +1,16 @@
+# pyproject.toml
+[project]
+name = "CommandPrompter"  # Must be unique on PyPI
+version = "0.1.0"
+description = "Prompt Command or Message."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "scutiii2", email = "scuti.code@gmail.com"}]
+dependencies = []
+
+[tool.setuptools.package-data]
+"CommandPrompter" = ["py.typed"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
